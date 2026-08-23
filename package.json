@@ -1,0 +1,16 @@
+{
+  "name": "agent-governance-reference",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A compact reference implementation of fail-closed controls for tool-using AI agents.",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "demo": "node --experimental-strip-types examples/demo.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
+
