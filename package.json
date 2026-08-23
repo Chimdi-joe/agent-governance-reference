@@ -4,6 +4,16 @@
   "private": true,
   "type": "module",
   "description": "A compact reference implementation of fail-closed controls for tool-using AI agents.",
+  "keywords": [
+    "ai-agents",
+    "agentic-ai",
+    "ai-safety",
+    "governance",
+    "authorization",
+    "idempotency",
+    "audit-log",
+    "typescript"
+  ],
   "scripts": {
     "test": "node --experimental-strip-types --test test/*.test.ts",
     "demo": "node --experimental-strip-types examples/demo.ts"
